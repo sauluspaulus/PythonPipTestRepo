@@ -33,3 +33,8 @@ Openshift Terminal:
 
 >oc new-app https://github.com/sauluspaulus/PythonPipTestRepo
 >oc expose service pythonpiptestrepo
+
+____________________________________
+Push to Docker hub
+
+docker push imageID sauluspaulus/python-pip-test:tagname
