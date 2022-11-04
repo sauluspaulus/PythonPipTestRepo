@@ -12,3 +12,17 @@ Build the image:
 
 Run the Image
 >sudo podman run [name] -p 80:8080
+
+
+___________________
+Openshift GUI:
+
+As Developer click on "+Add" on the sidebar
+Select "From Git"
+
+under Git Repo URL paste: https://github.com/sauluspaulus/PythonPipTestRepo
+as Builder Image select Python
+Choose a Name
+Select "Create a route to the Application
+and under Advanced options choose a Target port e.g. 8080
+click on "Create"
