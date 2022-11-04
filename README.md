@@ -32,3 +32,4 @@ ___________________
 Openshift Terminal:
 
 oc new-app https://github.com/sauluspaulus/PythonPipTestRepo
+still lacks a route
