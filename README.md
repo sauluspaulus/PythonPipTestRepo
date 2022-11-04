@@ -30,4 +30,5 @@ To see the site click under Topology on the pod click on "open URL"
 
 ___________________
 Openshift Terminal:
+
 oc new-app https://github.com/sauluspaulus/PythonPipTestRepo
