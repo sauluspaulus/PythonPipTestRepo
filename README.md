@@ -37,4 +37,14 @@ Openshift Terminal:
 ____________________________________
 Push to Docker hub
 
+Login to Docker hub
+
+$ podman login docker.io                           
+Username: jmutai
+Password: 
+Login Succeeded!
+Since I had tagged the image at build in format required by Docker Hub, I can just push it.
+
+$ podman push docker.io/jmutai/nodejs-demo:v1
+
 docker push imageID sauluspaulus/python-pip-test:tagname
