@@ -39,12 +39,8 @@ Push to Docker hub
 
 Login to Docker hub
 
-$ podman login docker.io                           
-Username: jmutai
-Password: 
-Login Succeeded!
-Since I had tagged the image at build in format required by Docker Hub, I can just push it.
+podman login -u sauluspaulus -p [password]
 
-$ podman push docker.io/jmutai/nodejs-demo:v1
+if the image is correctly tagged you can just push
 
-docker push imageID sauluspaulus/python-pip-test:tagname
+$ podman push https://hub.docker.com/repository/docker/sauluspaulus/python-pip-test
